@@ -1,0 +1,44 @@
+*{
+            background-color: rgb(184, 184, 238);
+        }
+        h2 {
+            background-color: antiquewhite;
+            text-align: center;
+        }
+
+        #welcome {
+            background-color: aqua;
+        }
+
+        para {
+            background-color: beige;
+        }
+
+        para1 {
+            background-color: bisque;
+            color: aqua;
+        }
+        #div2{
+            background-color: black;
+            color:aliceblue;
+        }
+        .div22, .div23{
+            background-color:red ;
+        }
+table {
+    border-collapse: collapse;   
+    width: 50%;
+}
+
+ th {
+    border: 1px solid black;    
+    padding: 8px;
+    margin:4px;
+    background-color: rgb(132, 192, 192);
+}
+ td {
+    border: 1px solid black;    
+    padding: 8px;
+    margin:4px;
+    background-color: rgb(131, 158, 115);
+}

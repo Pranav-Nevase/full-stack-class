@@ -1,0 +1,13 @@
+/* 3 ways of :- inline, internal,and exrernal css.
+ */
+ css 5 types of selectors:- 1. element/tag selector, 2. id selector, 3. class selector, 4. group selector, 5. universal selector.
+
+ id selector starts with #
+ class selector starts with .
+
+
+h2 background color=red text-align:center;
+
+h2 id="welcome"  background color=green
+
+Here the h2[id] will also take text-aligin, it overwrite the h2 bg color by unquie identiification, h2->bg,text-align->h2[id]-oveerwrites bg color 
