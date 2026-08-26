@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1 {
+            background-color: green !important;
+        }
+
+        .div1 {
+            background-color: rgb(119, 67, 67) !important;
+        }
+
+        h2 {
+            background-color: blue !important;
+            color: white;
+        }
+
+        img {
+            width: 350px;
+            height: 250px;
+        }
+
+        #img1 {
+            /* filter: blur(50px); */
+            /* filter: brightness(500%); */
+            /* filter: contrast(500%); */
+            /* filter: grayscale(100%); */
+            /* filter: hue-rotate(150deg); */
+            /* filter: invert(100%); */
+            /* filter: opacity(0.5); */
+            /* filter: saturate(200%); */
+            /* filter: sepia(60%); */
+        }
+
+        #img2 {
+            box-shadow: -10px 10px 20px red, 10px -10px 25px blue;
+        }
+
+        #h22 {
+            font-size: 55px;
+            text-shadow: 5px 0px 5px yellow, 0px 5px 5px yellow;
+        }
+        .box{
+            width: 250px;
+            height: 100px;
+            border: 3px solid black;
+
+            overflow: scroll;
+            z-index: 2000;
+            position: relative;
+        }
+        #div2{
+            z-index: 1;
+            position: relative;
+        }
+
+        .image-container{
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        #image2{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Overflow Example</h2>
+    <div class="image-container">
+        <img id="image2" src="https://picsum.photos/400/250" alt="image1">
+    </div>
+
+
+    <div class="box">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate aliquid ratione quibusdam
+            assumenda quam eum architecto minima dolores rerum corporis illum, maiores tenetur cumque incidunt voluptas
+            explicabo qui error asperiores? Culpa, delectus obcaecati deserunt praesentium commodi fuga aliquam quod
+            maxime
+            itaque iusto dolorum id enim eligendi atque, veniam et.</h4>
+    </div>
+    <div id="div2">
+        <img id="img1" src="../assets/image1_nature.jfif" alt="Image1">
+        <img id="img2" src="../assets/image1_nature.jfif" alt="Image2">
+    </div>
+    <div class="div1">
+        <p class="p1" style="background-color: yellow;">
+        <h2 id="h22" style="background-color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Numquam, nostrum!</h2>
+        </p>
+    </div>
+</body>
+
+</html>
