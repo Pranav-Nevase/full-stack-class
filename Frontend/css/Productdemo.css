@@ -15,6 +15,9 @@ body {
 /* Header */
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: rgb(20, 16, 84);
     border-bottom: 4px solid rgb(56, 61, 152);
 
@@ -90,6 +93,24 @@ navbar {
     color: white;
 }
 
+.product-images {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.product-images img {
+    width: 50px;
+    height:50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.product-images img:hover {
+    border-color: #1f618d;
+}
 /* main */
 
 .container {
@@ -128,13 +149,18 @@ navbar {
 
 /* img */
 
+.product-gallery {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
 .product-image {
     width: 300px;
     height: 180px;
 
     object-fit: cover;
-    float: left;
-    margin-right: 20px;
+    display: block;
     border: 3px solid #eee;
     border-radius: 6px;
 }
@@ -205,13 +231,24 @@ navbar {
 }
 
 .sidebar li {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
     padding: 12px;
     border-bottom: 1px solid #ddd;
 }
 
 .sidebar li:hover {
     background-color: #dcebf7;
+}
+
+
+.sidebar li img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
 .clear {
