@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+
+    <!-- focus within usefull for form -->
+
+    <div class="border border-gray-400 focus-within:border-blue-500 rounded-lg pe mt-3">
+        <label for="email" class="block text-sm text-gray-600">email</label>
+        input>w-full.
+    </div>
+
+
+    <div class="group overflow-hidden rounded-xl mt-3">
+        <img src="https://picsum.photos/800/500"
+         alt=""
+          class="w-full h-56 object-cover transition duration-300 group-hover:scale-105">
+    </div>
+
+    <div class="group-bg-gray-200 border-gray-400 rounded-xl p-6 hover:shadow-lg">
+        <h2 class="text-xl font-bold text-gray-800 group-hover:text-blue-600">hi</h2>
+        <p class="text-gray-600 mt-2">
+            hello
+        </p>
+    </div>
+
+    <!-- group -->
+
+    <div class="group">
+        <h2 class="group-hover:text-blue-400">Product</h2>
+        <p>Description</p>
+    </div>
+    
+    <button class="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-5 py-2 rounded-lg">
+        Click
+    </button>
+    <button class="bg-blue-600 disabled:bg-gray-100 disabled:cursor-not-allowed text-white px-5 py-2 rounded-lg">
+        Click
+    </button>
+
+    <!-- focus -->
+     <input type="text" class="border border-gray-400 fcous:border-red-600 focus:ring focus:ring-blue-400 rounded-lg px-4 py-2 mt-5" placeholder="Enter your name">
+
+     <input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-2 outline-none focus:border-blue-500 focus:ring-2 focus:ring-yellow-200">
+
+    <hr>
+    <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-green-600 hover:font-bold">
+        Save
+    </button>
+</body>
+</html>
